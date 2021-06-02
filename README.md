@@ -4,5 +4,5 @@
 -   Run `php artisan migrate`
 -   Run `php artisan db:seed`
 -   Run `php artisan key:generate`
--   Run `php artisan serve` or any command you prefer
+-   Run `php artisan serve` or any command you prefer to serve
 -   Go to Controllers/TestController
