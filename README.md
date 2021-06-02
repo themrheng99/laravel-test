@@ -1,4 +1,5 @@
 -   Clone and setup in your local environment including migration and seeding
+-   Run `composer install`, if error cause by version mismatch, run `composer update`
 -   Create database
 -   Create .env file and update your db config
 -   Run `php artisan migrate`
