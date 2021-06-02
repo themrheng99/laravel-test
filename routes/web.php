@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return 'hi';
 });
+
+Route::get('/q1', 'TestController@q1');
+Route::get('/q2', 'TestController@q2');
+Route::get('/q3', 'TestController@q3');
+Route::get('/q4', 'TestController@q4');
+Route::get('/q5', 'TestController@q5');
